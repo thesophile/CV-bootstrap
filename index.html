@@ -14,11 +14,12 @@
 <body class="bg-dark-subtle">
 
 
-<div class="d-flex w-100">
+<div class="d-flex w-100"> <!--Outermost div-->
 
-  <!--Profile-->
-    <div class="w-40 mx-2 my-4 shadow bg-white" style=" width: 30%;">
+  
+    <div class="w-40 ms-3 me-0 my-4 shadow bg-white" style=" width: 33%;"> <!--Profile div (left)-->
 
+      <!--Avatar-->
       <div class="card text-bg-dark rounded-0 border-0">
         <img src="avatar_hat.jpg" class="card-img rounded-0" alt="...">
         <div class="card-img-overlay">
@@ -26,56 +27,87 @@
         </div>
       </div>
 
-      <p class="text-secondary"><i class="fa fa-briefcase fa-fw primary mx-3 mt-3"></i>Designer</p>
-      <p class="text-secondary"><i class="fa fa-home fa-fw primary mx-3"></i>London, UK</p>
-      <p class="text-secondary"><i class="fa fa-envelope fa-fw primary mx-3"></i>ex@mail.com</p>
-      <p class="text-secondary"><i class="fa fa-phone fa-fw primary mx-3"></i>1224435534</p>
 
-      <hr class="">
+      <!--Details-->
+      <div class="mx-3">
+        <p class="text-secondary"><i class="fa fa-briefcase fa-fw primary  mt-3 me-3"></i>Designer</p>
+        <p class="text-secondary"><i class="fa fa-home fa-fw primary me-3 "></i>London, UK</p>
+        <p class="text-secondary"><i class="fa fa-envelope fa-fw primary me-3 "></i>ex@mail.com</p>
+        <p class="text-secondary"><i class="fa fa-phone fa-fw primary me-3 "></i>1224435534</p>
+        <hr class="">
+        <p class="text-secondary"><i class="fa fa-asterisk fa-fw primary me-3 "></i>Skills</p>
 
-      <p class="text-secondary"><i class="fa fa-asterisk fa-fw primary mx-3"></i>Skills</p>
+        <p class="text-secondary mt-3">Adobe Photoshop</p>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar rounded" style="width: 90%; background-color:#009688;">90%</div>
+        </div>
+
+        <p class="text-secondary mt-3">Photography</p>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar rounded" style="width: 80%; background-color:#009688;">80%</div>
+        </div>
+
+        <p class="text-secondary mt-3">Illustrator </p>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar rounded" style="width: 75%; background-color:#009688;">75%</div>
+        </div>
+
+        <p class="text-secondary mt-3">Media </p>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar rounded" style="width: 50%; background-color:#009688;">50%</div>
+        </div>
+        
+      </div>
+      
+
+    </div> <!--###########-->
 
 
-    </div>
 
 
-
-
-    <div class="w-60"  style="width: 70%;">
+    <div class="w-60 mx-2"  style="width: 67%;"> <!-- Qualifications div (right) -->
 
           <!--Experience-->
           <div class="mx-2 my-4 py-4 shadow bg-white">
-            <h2 class="px-3  pb-3"> <i class="fa fa-suitcase primary"></i> <span class="text-secondary fw-normal">Work
-                Experience</span></h2>
-            <h3 class="fs-5 px-3 text-secondary">Front End Developer / w3schools.com</h3>
-            <div class="px-3 primary fw-medium d-flex align-items-center">
-              <p><i class="fa fa-calendar me-3"></i></p>
-              <p>Jan 2015-</p>
-              <p class="bg-main text-white rounded-1 px-2 py-0 ms-1">Current</p>
+            <h2 class="px-3  pb-3"> 
+              <i class="fa fa-suitcase primary"></i> 
+              <span class="text-secondary fw-normal">Work Experience</span>
+            </h2>
+
+            <!--Content-->
+            <div class="mx-4 px-2">
+              <h3 class="fs-5  text-secondary">Front End Developer / w3schools.com</h3>
+              <div class=" primary fw-medium d-flex align-items-center">
+                <p><i class="fa fa-calendar me-3"></i></p>
+                <p>Jan 2015-</p>
+                <p class="bg-main text-white rounded-1 px-2 py-0 ms-1">Current</p>
+              </div>
+              <p class="w-90 ">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
+                reprehenderit sunt hic.
+                Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+              <hr class="opacity-5 mx-3">
+              <!---->
+              <h3 class="fs-5  text-secondary">Web Developer / something.com</h3>
+              <div class=" primary fw-medium d-flex align-items-center">
+                <p><i class="fa fa-calendar me-3"></i></p>
+                <p>Mar 2012 - Dec 2014</p>
+              </div>
+              <p class="w-90 ">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic.
+                Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+              <hr class="opacity-5 mx-3">
+              <!---->
+              <h3 class="fs-5  text-secondary">Graphic Designer / designsomething.comm</h3>
+              <div class=" primary fw-medium d-flex align-items-center">
+                <p><i class="fa fa-calendar me-3"></i></p>
+                <p>Jun 2010 - Mar 2012</p>
+              </div>
+              <p class="w-90 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
             </div>
-            <p class="w-90 px-3">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
-              reprehenderit sunt hic.
-              Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
-            </p>
-            <hr class="opacity-5 mx-3">
-            <!---->
-            <h3 class="fs-5 px-3 text-secondary">Web Developer / something.com</h3>
-            <div class="px-3 primary fw-medium d-flex align-items-center">
-              <p><i class="fa fa-calendar me-3"></i></p>
-              <p>Mar 2012 - Dec 2014</p>
-            </div>
-            <p class="w-90 px-3">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic.
-              Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
-            </p>
-            <hr class="opacity-5 mx-3">
-            <!---->
-            <h3 class="fs-5 px-3 text-secondary">Graphic Designer / designsomething.comm</h3>
-            <div class="px-3 primary fw-medium d-flex align-items-center">
-              <p><i class="fa fa-calendar me-3"></i></p>
-              <p>Graphic Designer / designsomething.com</p>
-            </div>
-            <p class="w-90 px-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
+
+
           </div>
 
 
